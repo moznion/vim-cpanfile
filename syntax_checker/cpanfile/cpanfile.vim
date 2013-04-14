@@ -3,6 +3,9 @@
 "Maintainer:  moznion <moznion[__at__]gmail.com>,
 "License:     MIT License
 
+let s:cpo_save = &cpo
+set cpo&vim
+
 function! SyntaxCheckers_cpanfile_cpanfile_IsAvailable()
   let l:module = 'Module::CPANfile'
   let l:err    = system("perl -M" . l:module . " -e ''")
@@ -31,3 +34,6 @@ endfunction
 call g:SyntasticRegistry.CreateAndRegisterChecker({
   \ 'filetype': 'cpanfile',
   \ 'name': 'cpanfile'})
+
+let &cpo = s:cpo_save
+unlet s:cpo_save
