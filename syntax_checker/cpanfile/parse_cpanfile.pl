@@ -3,11 +3,12 @@
 use strict;
 use warnings;
 use utf8;
-
 use Module::CPANfile;
 
 my $file = $ARGV[0];
 eval { Module::CPANfile->load($file) };
+
+$@ or exit(0);
 my $res = $@;
 
 my $type = 'E';    # <= Means Error
