@@ -7,7 +7,6 @@ Vim utilities for cpanfile.
 
 - Syntax Highlighting
 - Auto Completion (by using [neocomplcache](https://github.com/Shougo/neocomplcache))
-- Syntax Checking (by using [syntastic](https://github.com/scrooloose/syntastic))
 
 
 # How to install
@@ -43,7 +42,6 @@ Please configure into .vimrc like so;
 It is not indispensable, but it suggests to install the following.
 
 - [neocomplcache](https://github.com/Shougo/neocomplcache)
-- [syntastic](https://github.com/scrooloose/syntastic)
 
 #License
 
