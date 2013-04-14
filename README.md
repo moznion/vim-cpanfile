@@ -6,8 +6,8 @@ Vim utilities for cpanfile.
 # What does it support?
 
 - Syntax Highlighting
-- Auto Completion (by using [https://github.com/Shougo/neocomplcache](neocomplcache))
-- Syntax Checking (by using [https://github.com/scrooloose/syntastic](syntastic))
+- Auto Completion (by using [neocomplcache](https://github.com/Shougo/neocomplcache))
+- Syntax Checking (by using [syntastic](https://github.com/scrooloose/syntastic))
 
 
 # How to install
@@ -23,8 +23,8 @@ Or put the 'plenv.vim' onto plugin directory of vim.
 
 It is not indispensable, but it suggests to install the following.
 
-- [https://github.com/Shougo/neocomplcache](neocomplcache)
-- [https://github.com/scrooloose/syntastic](syntastic)
+- [neocomplcache](https://github.com/Shougo/neocomplcache)
+- [syntastic](https://github.com/scrooloose/syntastic)
 
 #License
 
