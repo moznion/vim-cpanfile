@@ -11,7 +11,7 @@ set cpo&vim
 syn keyword cpanfileInclude requires recommends suggests conflicts
                           \ configure_requires build_requires
                           \ test_requires author_requires
-syn keyword cpanfileConditional on
+syn keyword cpanfileConditional on feature
 " syn keyword ??? osname " TODO it has not implemented yet.
 
 hi def link cpanfileInclude     Include

@@ -1,9 +1,11 @@
+on
 requires
 recommends
 suggests
 conflicts
+feature
+osname
 configure_requires
 build_requires
 test_requires
 author_requires
-on
