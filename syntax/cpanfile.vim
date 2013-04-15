@@ -2,7 +2,7 @@
 " Language:   cpanfile
 " Maintainer: moznion <moznion@gmail.com>
 " Version:    0.01
-" URL:        https://github.com/moznion/cpanfile.vim
+" URL:        https://github.com/moznion/vim-cpanfile
 " Anon CVS:   See above site
 
 let s:cpo_save = &cpo

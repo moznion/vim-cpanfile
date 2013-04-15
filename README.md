@@ -1,4 +1,4 @@
-# cpanfile.vim
+# vim-cpanfile
 
 Vim utilities for cpanfile.
 
@@ -13,7 +13,7 @@ Vim utilities for cpanfile.
 
 If you are using NeoBundle, please write down some codes into '.vimrc', like so:
 
-    NeoBundle 'moznion/cpanfile.vim'
+    NeoBundle 'moznion/vim-cpanfile'
 
 Or put the 'plenv.vim' onto plugin directory of vim.
 
@@ -33,7 +33,7 @@ Please configure into .vimrc like so;
 
     let g:neocomplcache_dictionary_filetype_lists = {
       \ ...
-      \ 'cpanfile' : $HOME . '/.vim/bundle/cpanfile.vim/dict/cpanfile.dict'
+      \ 'cpanfile' : $HOME . '/.vim/bundle/vim-cpanfile/dict/cpanfile.dict'
     \}
 
 
