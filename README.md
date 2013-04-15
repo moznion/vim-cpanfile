@@ -33,7 +33,7 @@ Please configure into .vimrc like so;
 
     let g:neocomplcache_dictionary_filetype_lists = {
       \ ...
-      \ 'cpanfile' : $HOME . '/.vim/dict/cpanfile.dict'
+      \ 'cpanfile' : $HOME . '/.vim/bundle/cpanfile.vim/dict/cpanfile.dict'
     \}
 
 
