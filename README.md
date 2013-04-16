@@ -15,7 +15,7 @@ If you are using NeoBundle, please write down some codes into '.vimrc', like so:
 
     NeoBundle 'moznion/vim-cpanfile'
 
-Or put the 'plenv.vim' onto plugin directory of vim.
+Or put files of this repository onto plugin directory of vim.
 
 # Configuration and Environment
 
