@@ -21,14 +21,6 @@ Or put files of this repository onto plugin directory of vim.
 
 Please configure into .vimrc like so;
 
-## Common configuration
-
-    ...
-    au BufNewFile,BufRead cpanfile set filetype=cpanfile
-    au BufNewFile,BufRead cpanfile set syntax=perl.cpanfile
-    ...
-
-
 ## For auto completion
 
     let g:neocomplcache_dictionary_filetype_lists = {
