@@ -17,7 +17,5 @@ syn keyword cpanfileConditional on feature
 hi def link cpanfileInclude     Include
 hi def link cpanfileConditional Conditional
 
-let b:current_syntax = "cpanfile"
-
 let &cpo = s:cpo_save
 unlet s:cpo_save
