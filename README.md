@@ -7,7 +7,7 @@ What does this plug-in support?
 -------------------------------
 
 - Syntax Highlighting for cpanfile
-- Auto Completion of the cpanfile keywords (by [neocomplcache](https://github.com/Shougo/neocomplcache) or [neocomplcache](https://github.com/Shougo/neocomplcache))
+- Auto Completion of the cpanfile keywords (by [neocomplete](https://github.com/Shougo/neocomplete) or [neocomplcache](https://github.com/Shougo/neocomplcache))
 
 How to install
 --------------
