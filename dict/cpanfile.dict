@@ -9,3 +9,4 @@ configure_requires
 build_requires
 test_requires
 author_requires
+mirror
